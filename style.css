@@ -65,7 +65,9 @@ nav {
   align-items: stretch;
   padding: 10px;
   padding-top: 3px;
+  margin-left: 0;
   font-weight: lighter;
+  flex-wrap: wrap;
 }
 
 h4 {
@@ -80,4 +82,15 @@ img {
 
 hr {
   height: .5px;
+}
+
+p {
+  font-family: avenir;
+}
+
+span {
+  font-size: 100px;
+  float: left;
+  margin: -10px 5px -20px 0px;
+  color: gray;
 }
